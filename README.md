@@ -37,3 +37,11 @@ Login Page
 ## Home Page
 
 <img src="./Images/HomePage.png" alt="Loading " height="320">
+
+## Comment Page
+
+<img src="./Images/Comment.png" alt="Loading " height="320">
+
+## Profile Page
+
+<img src="./Images/Profile.png" alt="Loading " height="320">
