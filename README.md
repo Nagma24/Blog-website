@@ -29,7 +29,7 @@ To start the server run **node app.js**
 
 # ScreenSort
 
-## Login Page
+<!-- ## Login Page
 
 <img src="./Images/Login.png" alt="Loading " height="320">
 Login Page
@@ -44,4 +44,4 @@ Login Page
 
 ## Profile Page
 
-<img src="./Images/Profile.png" alt="Loading " height="320">
+<img src="./Images/Profile.png" alt="Loading " height="320"> -->
