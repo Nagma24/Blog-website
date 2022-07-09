@@ -11,7 +11,7 @@
 * Step 1
 
 ```
-https://github.com/Nagma24/Blog-website.git
+git clone https://github.com/Nagma24/Blog-website.git
 ```
 
 run **npm i**.
@@ -26,3 +26,14 @@ Configure "pgConfig.js" and "passport-comfig.js"
 
 * Step 5
 To start the server run **node app.js**
+
+# ScreenSort
+
+## Login Page
+
+<img src="./Images/Login.png" alt="Loading " height="320">
+Login Page
+
+## Home Page
+
+<img src="./Images/HomePage.png" alt="Loading " height="320">
