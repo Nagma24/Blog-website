@@ -1,0 +1,31 @@
+<%- include("partials/css"); -%>
+  <%- include("partials/header"); -%>
+    <title>Home</title>
+
+    </html>
+    <div class="container">
+      <form action="/create" method="post">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Write here to create post</label>
+          <textarea class="form-control" name="content" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3 ms-auto">Create Post</button>
+      </form>
+      <div class="d-flex align-items-center justify-content-center flex-column">
+        <% data.forEach((item)=>{%>
+          <div class="card mb-3" style="width:400px ;">
+            <div class="card-body">
+              <h5 class="card-title">
+                <%= item.username %>
+              </h5>
+              <p class="card-text">
+                <%= item.content %>
+              </p>
+              <a href="/comment?id=<%= item.id %>" class="btn btn-light"> <i class="fa-regular fa-comment"></i>
+                Comment</a>
+            </div>
+          </div>
+          <%});%>
+      </div>
+
+    </div>
