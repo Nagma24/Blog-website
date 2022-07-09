@@ -22,7 +22,7 @@ Import the schema of database app.sql
 
 * Step 4
 
-Configure "pgConfig.js" and "passport-comfig.js"
+Configure "pgConfig.js" and "passport-config.js"
 
 * Step 5
 To start the server run **node app.js**
